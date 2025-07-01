@@ -89,6 +89,7 @@ public:
 protected:
 	friend class MojServiceMessage;
 	friend class MojServiceRequest;
+	friend class MojLunaMessage;
 
 	class SubscriptionKey : public MojObject
 	{
